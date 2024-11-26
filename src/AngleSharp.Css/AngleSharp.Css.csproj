@@ -15,14 +15,19 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\AngleSharp\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="1.1.0" />
+    <ProjectReference Include="..\..\..\AngleSharp\src\AngleSharp\AngleSharp.Core.csproj" />
   </ItemGroup>
+
+
 
   <PropertyGroup Condition=" '$(OS)' == 'Windows_NT' ">
     <DelaySign>false</DelaySign>
