@@ -7,7 +7,7 @@
     /// <summary>
     /// Take an url prefix.
     /// </summary>
-    sealed class UrlPrefixFunction : DocumentFunction
+    public sealed class UrlPrefixFunction : DocumentFunction
     {
         #region ctor
 

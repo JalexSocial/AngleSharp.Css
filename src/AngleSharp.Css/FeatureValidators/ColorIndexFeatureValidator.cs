@@ -6,7 +6,7 @@ namespace AngleSharp.Css.FeatureValidators
     using System;
     using static ValueConverters;
 
-    sealed class ColorIndexFeatureValidator : IFeatureValidator
+    public sealed class ColorIndexFeatureValidator : IFeatureValidator
     {
         public Boolean Validate(IMediaFeature feature, IRenderDevice renderDevice)
         {

@@ -4,7 +4,7 @@ namespace AngleSharp.Css.Dom
     using System.Collections.Generic;
     using System.Linq;
 
-    sealed class CssPseudoElementList : ICssPseudoElementList
+    public sealed class CssPseudoElementList : ICssPseudoElementList
     {
         private readonly ICssPseudoElement[] _elements;
 

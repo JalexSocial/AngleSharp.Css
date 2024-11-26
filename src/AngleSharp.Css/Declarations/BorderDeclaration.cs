@@ -25,7 +25,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.BorderColor,
         };
 
-        sealed class BorderAggregator : IValueAggregator, IValueConverter
+        public sealed class BorderAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = WithAny(
                 LineWidthConverter.Option(InitialValues.BorderWidthDecl),

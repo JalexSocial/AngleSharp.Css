@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Parser.Tokens
     /// <summary>
     /// The base class token for the CSS parser.
     /// </summary>
-    class CssToken
+    public class CssToken
     {
         #region Fields
 

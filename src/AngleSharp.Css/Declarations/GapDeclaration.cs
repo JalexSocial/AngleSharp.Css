@@ -22,7 +22,7 @@ namespace AngleSharp.Css.Declarations
 
         public static readonly PropertyFlags Flags = PropertyFlags.Animatable | PropertyFlags.Shorthand;
 
-        sealed class GapAggregagtor : IValueAggregator, IValueConverter
+        public sealed class GapAggregagtor : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = WithOrder(GapConverter, GapConverter);
 

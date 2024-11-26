@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a CSS background definition.
     /// </summary>
-    sealed class CssBackgroundValue : ICssCompositeValue, IEquatable<CssBackgroundValue>
+    public sealed class CssBackgroundValue : ICssCompositeValue, IEquatable<CssBackgroundValue>
     {
         #region Fields
 

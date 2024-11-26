@@ -7,7 +7,7 @@
     /// <summary>
     /// Represents an unknown CSS rule.
     /// </summary>
-    sealed class CssUnknownRule : CssRule
+    public sealed class CssUnknownRule : CssRule
     {
         #region Fields
 

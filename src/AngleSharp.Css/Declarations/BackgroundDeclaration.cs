@@ -30,7 +30,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.BackgroundColor,
         };
 
-        sealed class BackgroundAggregator : IValueAggregator, IValueConverter
+        public sealed class BackgroundAggregator : IValueAggregator, IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {

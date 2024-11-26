@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.MarginBlockEnd,
         };
 
-        sealed class MarginBlockAggregator : IValueAggregator, IValueConverter
+        public sealed class MarginBlockAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(AutoLengthOrPercentConverter, AssignInitial(CssLengthValue.Zero)).FlowRelative();
 

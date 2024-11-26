@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.PaddingBlockEnd,
         };
 
-        sealed class PaddingBlockAggregator : IValueAggregator, IValueConverter
+        public sealed class PaddingBlockAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(AutoLengthOrPercentConverter, AssignInitial(CssLengthValue.Zero)).FlowRelative();
 

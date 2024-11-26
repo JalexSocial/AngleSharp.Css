@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a CSS value that was born from a shorthand.
     /// </summary>
-    sealed class CssChildValue : ICssValue, IEquatable<CssChildValue>
+    public sealed class CssChildValue : ICssValue, IEquatable<CssChildValue>
     {
         #region Fields
 

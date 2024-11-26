@@ -26,7 +26,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.BorderBottomLeftRadius,
         };
 
-        sealed class BorderRadiusAggregator : IValueAggregator, IValueConverter
+        public sealed class BorderRadiusAggregator : IValueAggregator, IValueConverter
         {
             private readonly IValueConverter _converter = LengthOrPercentConverter.Periodic();
 

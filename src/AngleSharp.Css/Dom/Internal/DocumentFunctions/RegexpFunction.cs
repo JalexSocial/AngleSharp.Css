@@ -8,7 +8,7 @@
     /// <summary>
     /// Take a regular expression.
     /// </summary>
-    sealed class RegexpFunction : DocumentFunction
+    public sealed class RegexpFunction : DocumentFunction
     {
         #region Fields
 

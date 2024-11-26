@@ -1,9 +1,9 @@
-﻿namespace AngleSharp.Css.Parser
+namespace AngleSharp.Css.Parser
 {
     /// <summary>
     /// An enumeration of all possible tokens.
     /// </summary>
-    enum CssTokenType : byte
+    public enum CssTokenType : byte
     {
         /// <summary>
         /// A string token (usually in quotation marks).

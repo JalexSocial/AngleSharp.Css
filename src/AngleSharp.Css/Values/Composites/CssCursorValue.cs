@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a CSS cursor definition.
     /// </summary>
-    sealed class CssCursorValue : ICssCompositeValue, IEquatable<CssCursorValue>
+    public sealed class CssCursorValue : ICssCompositeValue, IEquatable<CssCursorValue>
     {
         #region Fields
 

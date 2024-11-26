@@ -154,7 +154,7 @@ namespace AngleSharp.Css
 
         #region Context
 
-        sealed class CssComputeContext : ICssComputeContext
+        public sealed class CssComputeContext : ICssComputeContext
         {
             private readonly IRenderDevice _device;
             private readonly IBrowsingContext _context;

@@ -5,7 +5,7 @@
     /// <summary>
     /// Represents a CSS comment token.
     /// </summary>
-    sealed class CssCommentToken : CssToken
+    public sealed class CssCommentToken : CssToken
     {
         #region Fields
 

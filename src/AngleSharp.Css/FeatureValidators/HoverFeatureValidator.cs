@@ -5,7 +5,7 @@ namespace AngleSharp.Css.FeatureValidators
     using System;
     using static ValueConverters;
 
-    sealed class HoverFeatureValidator : IFeatureValidator
+    public sealed class HoverFeatureValidator : IFeatureValidator
     {
         public Boolean Validate(IMediaFeature feature, IRenderDevice renderDevice)
         {

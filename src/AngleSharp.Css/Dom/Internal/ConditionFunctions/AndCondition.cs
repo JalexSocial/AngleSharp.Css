@@ -5,7 +5,7 @@
     using System.IO;
     using System.Linq;
 
-    sealed class AndCondition : IConditionFunction
+    public sealed class AndCondition : IConditionFunction
     {
         private readonly IConditionFunction[] _conditions;
 

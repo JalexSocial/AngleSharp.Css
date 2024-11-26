@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Converters
     using System;
     using System.Collections.Generic;
 
-    sealed class DictionaryValueConverter<T> : IValueConverter
+    public sealed class DictionaryValueConverter<T> : IValueConverter
     {
         private readonly IDictionary<String, T> _values;
 

@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System;
 
-    sealed class SeparatorConverter : IValueConverter
+    public sealed class SeparatorConverter : IValueConverter
     {
         private readonly IValueConverter _converter;
         private readonly Char _seperator;

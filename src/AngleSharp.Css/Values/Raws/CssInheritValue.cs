@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents the CSS inherit value.
     /// </summary>
-    sealed class CssInheritValue : ICssSpecialValue
+    public sealed class CssInheritValue : ICssSpecialValue
     {
         #region ctor
 

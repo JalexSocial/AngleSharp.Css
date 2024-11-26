@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System;
 
-    sealed class IdentifierValueConverter : IValueConverter
+    public sealed class IdentifierValueConverter : IValueConverter
     {
         private readonly Func<StringSource, String> _check;
 
@@ -28,7 +28,7 @@ namespace AngleSharp.Css.Converters
         }
     }
 
-    sealed class IdentifierValueConverter<T> : IValueConverter
+    public sealed class IdentifierValueConverter<T> : IValueConverter
     {
         private readonly String _identifier;
         private readonly T _result;

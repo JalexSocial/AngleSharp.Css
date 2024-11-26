@@ -4,7 +4,7 @@
     using AngleSharp.Css.Parser;
     using AngleSharp.Text;
 
-    sealed class OrValueConverter : IValueConverter
+    public sealed class OrValueConverter : IValueConverter
     {
         private readonly IValueConverter[] _converters;
 

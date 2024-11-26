@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents the class implementing a media query list for notifications.
     /// </summary>
-    sealed class CssMediaQueryList : EventTarget, IMediaQueryList
+    public sealed class CssMediaQueryList : EventTarget, IMediaQueryList
     {
         #region Fields
 

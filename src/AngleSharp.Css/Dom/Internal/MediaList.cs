@@ -11,7 +11,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a list of media elements.
     /// </summary>
-    sealed class MediaList : IMediaList
+    public sealed class MediaList : IMediaList
     {
         #region Fields
 

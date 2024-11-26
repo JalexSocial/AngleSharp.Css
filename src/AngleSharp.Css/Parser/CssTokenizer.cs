@@ -12,7 +12,7 @@ namespace AngleSharp.Css.Parser
     /// The CSS tokenizer.
     /// See http://dev.w3.org/csswg/css-syntax/#tokenization for more details.
     /// </summary>
-    sealed class CssTokenizer : BaseTokenizer
+    public sealed class CssTokenizer : BaseTokenizer
 	{
 		#region Fields
 

@@ -26,7 +26,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.TransitionDelay,
         };
 
-        sealed class TransitionAggregator : IValueAggregator, IValueConverter
+        public sealed class TransitionAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = WithAny(
                 AnimatableConverter.Option(InitialValues.TransitionPropertyDecl),

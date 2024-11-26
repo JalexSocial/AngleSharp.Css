@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
 
         public static readonly PropertyFlags Flags = PropertyFlags.Shorthand;
 
-        sealed class GridColumnAggregator : IValueAggregator, IValueConverter
+        public sealed class GridColumnAggregator : IValueAggregator, IValueConverter
         {
             private static readonly String seperator = " / ";
             private static readonly IValueConverter converter = SlashSeparated(Or(

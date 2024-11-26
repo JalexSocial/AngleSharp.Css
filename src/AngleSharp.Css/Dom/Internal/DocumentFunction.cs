@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a feature expression within a media query.
     /// </summary>
-    abstract class DocumentFunction : IDocumentFunction
+    public abstract class DocumentFunction : IDocumentFunction
     {
         #region Fields
 

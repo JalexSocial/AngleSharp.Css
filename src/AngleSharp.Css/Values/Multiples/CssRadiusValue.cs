@@ -138,7 +138,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a radius (w, h) CSS value.
     /// </summary>
-    sealed class CssRadiusValue : CssRadiusValue<ICssValue>
+    public sealed class CssRadiusValue : CssRadiusValue<ICssValue>
     {
         #region ctor
 

@@ -29,7 +29,7 @@ namespace AngleSharp.Css.Declarations
 
         public static PropertyFlags Flags = PropertyFlags.Animatable | PropertyFlags.Shorthand;
 
-        sealed class BackgroundPositionAggregator : IValueConverter, IValueAggregator
+        public sealed class BackgroundPositionAggregator : IValueConverter, IValueAggregator
         {
             private static readonly IValueConverter converter = Or(PointConverter.FromList(), AssignInitial(InitialValues.BackgroundPositionDecl));
 

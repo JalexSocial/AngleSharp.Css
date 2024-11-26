@@ -26,7 +26,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.BorderImageWidth,
         };
 
-        sealed class BorderImageValueConverter : IValueConverter
+        public sealed class BorderImageValueConverter : IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {
@@ -108,7 +108,7 @@ namespace AngleSharp.Css.Declarations
             }
         }
 
-        sealed class BorderImageAggregator : IValueAggregator, IValueConverter
+        public sealed class BorderImageAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(None, new BorderImageValueConverter());
 

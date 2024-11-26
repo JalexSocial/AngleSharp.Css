@@ -6,7 +6,7 @@
     /// <summary>
     /// Represents the CSSGroupingRule interface.
     /// </summary>
-    abstract class CssGroupingRule : CssRule, ICssGroupingRule
+    public abstract class CssGroupingRule : CssRule, ICssGroupingRule
     {
         #region Fields
 

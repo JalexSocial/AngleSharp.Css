@@ -7,7 +7,7 @@
     using AngleSharp.Text;
     using System;
 
-    sealed class StyleAttributeObserver : IAttributeObserver
+    public sealed class StyleAttributeObserver : IAttributeObserver
     {
         void IAttributeObserver.NotifyChange(IElement host, String name, String value)
         {

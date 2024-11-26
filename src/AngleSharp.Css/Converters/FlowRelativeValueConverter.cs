@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System;
 
-    sealed class FlowRelativeValueConverter : IValueConverter
+    public sealed class FlowRelativeValueConverter : IValueConverter
     {
         private readonly IValueConverter _converter;
 

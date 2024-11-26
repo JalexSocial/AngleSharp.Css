@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents the @viewport rule.
     /// </summary>
-    sealed class CssViewportRule : CssDeclarationRule
+    public sealed class CssViewportRule : CssDeclarationRule
     {
         private static readonly HashSet<String> ContainedProperties = new(StringComparer.OrdinalIgnoreCase)
         {

@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// A wrapper around an element to extend the DOM.
     /// </summary>
-    sealed class PseudoElement : IElement, IPseudoElement
+    public sealed class PseudoElement : IElement, IPseudoElement
     {
         #region Fields
 

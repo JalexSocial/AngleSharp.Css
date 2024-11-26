@@ -4,7 +4,7 @@ namespace AngleSharp.Css.Dom
     using System;
     using System.IO;
 
-    sealed class DeclarationCondition : IConditionFunction
+    public sealed class DeclarationCondition : IConditionFunction
     {
         private readonly String _name;
         private readonly String _value;

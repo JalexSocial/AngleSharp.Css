@@ -10,7 +10,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents the matrix3d transformation.
     /// </summary>
-    sealed class CssMatrixValue : ICssTransformFunctionValue, IEquatable<CssMatrixValue>
+    public sealed class CssMatrixValue : ICssTransformFunctionValue, IEquatable<CssMatrixValue>
     {
         #region Fields
 

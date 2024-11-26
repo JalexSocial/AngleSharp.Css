@@ -22,7 +22,7 @@ namespace AngleSharp.Css.Declarations
 
         public static PropertyFlags Flags = PropertyFlags.Shorthand;
 
-        sealed class FlexFlowAggregator : IValueAggregator, IValueConverter
+        public sealed class FlexFlowAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = WithAny(
                 FlexDirectionConverter,

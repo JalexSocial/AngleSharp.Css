@@ -28,7 +28,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.LineHeight,
         };
 
-        sealed class FontValueConverter : IValueConverter
+        public sealed class FontValueConverter : IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {
@@ -102,7 +102,7 @@ namespace AngleSharp.Css.Declarations
             }
         }
 
-        sealed class FontAggregator : IValueAggregator, IValueConverter
+        public sealed class FontAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(new FontValueConverter(), SystemFontConverter);
 

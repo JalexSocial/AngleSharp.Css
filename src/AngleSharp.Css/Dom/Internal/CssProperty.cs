@@ -11,7 +11,7 @@ namespace AngleSharp.Css.Dom
     /// Fore more information about CSS properties see:
     /// http://www.w3.org/TR/CSS21/propidx.html.
     /// </summary>
-    internal class CssProperty : ICssProperty
+    public class CssProperty : ICssProperty
     {
         #region Fields
 
@@ -26,7 +26,7 @@ namespace AngleSharp.Css.Dom
 
         #region ctor
 
-        internal CssProperty(String name, IValueConverter converter, PropertyFlags flags = PropertyFlags.None, ICssValue value = null, Boolean important = false)
+        public CssProperty(String name, IValueConverter converter, PropertyFlags flags = PropertyFlags.None, ICssValue value = null, Boolean important = false)
         {
             _name = name.StartsWith("--") ? name : name.ToLowerInvariant();
             _converter = converter;
@@ -79,11 +79,11 @@ namespace AngleSharp.Css.Dom
 
         #region Internal Properties
 
-        internal Boolean CanBeHashless => (_flags & PropertyFlags.Hashless) == PropertyFlags.Hashless;
+        public Boolean CanBeHashless => (_flags & PropertyFlags.Hashless) == PropertyFlags.Hashless;
 
-        internal Boolean CanBeUnitless => (_flags & PropertyFlags.Unitless) == PropertyFlags.Unitless;
+        public Boolean CanBeUnitless => (_flags & PropertyFlags.Unitless) == PropertyFlags.Unitless;
 
-        internal IValueConverter Converter => _converter;
+        public IValueConverter Converter => _converter;
 
         #endregion
 
@@ -106,7 +106,7 @@ namespace AngleSharp.Css.Dom
 
         #region Compute Context
 
-        sealed class PropertyComputeContext : ICssComputeContext
+        public sealed class PropertyComputeContext : ICssComputeContext
         {
             private readonly ICssComputeContext _parent;
             private readonly IValueConverter _converter;

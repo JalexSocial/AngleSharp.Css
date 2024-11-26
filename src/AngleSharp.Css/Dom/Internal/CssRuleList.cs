@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents an array like structure containing CSS rules.
     /// </summary>
-    sealed class CssRuleList : ICssRuleList
+    public sealed class CssRuleList : ICssRuleList
     {
         #region Fields
 

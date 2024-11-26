@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// Represents a CSS @media rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssMediaRule ({ConditionText})")]
-    sealed class CssMediaRule : CssConditionRule, ICssMediaRule
+    public sealed class CssMediaRule : CssConditionRule, ICssMediaRule
     {
         #region Fields
 

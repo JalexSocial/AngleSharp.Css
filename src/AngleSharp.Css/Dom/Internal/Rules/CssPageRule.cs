@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// Represents the @page rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssPageRule ({SelectorText})")]
-    sealed class CssPageRule : CssRule, ICssPageRule
+    public sealed class CssPageRule : CssRule, ICssPageRule
     {
         #region Fields
 

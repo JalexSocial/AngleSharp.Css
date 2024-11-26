@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
 
         public static readonly PropertyFlags Flags = PropertyFlags.Shorthand;
 
-        sealed class GridTemplateConverter : IValueConverter
+        public sealed class GridTemplateConverter : IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {
@@ -31,7 +31,7 @@ namespace AngleSharp.Css.Declarations
             }
         }
 
-        sealed class GridTemplateAggregator : IValueConverter, IValueAggregator
+        public sealed class GridTemplateAggregator : IValueConverter, IValueAggregator
         {
             private static readonly IValueConverter converter = new GridTemplateConverter();
 

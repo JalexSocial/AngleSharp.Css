@@ -22,7 +22,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.ColumnCount,
         };
 
-        sealed class ColumnsValueConverter : IValueConverter
+        public sealed class ColumnsValueConverter : IValueConverter
         {
             private static readonly IValueConverter converter = WithAny(
                 AutoLengthConverter,
@@ -34,7 +34,7 @@ namespace AngleSharp.Css.Declarations
             }
         }
 
-        sealed class ColumnsAggregator : IValueAggregator, IValueConverter
+        public sealed class ColumnsAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = new ColumnsValueConverter();
 

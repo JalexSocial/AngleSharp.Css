@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System.Collections.Generic;
 
-    sealed class ListValueConverter : IValueConverter
+    public sealed class ListValueConverter : IValueConverter
     {
         private readonly IValueConverter _converter;
 

@@ -10,7 +10,7 @@ namespace AngleSharp.Css.Dom
     /// Contains the rules specified by a @document { /* ... */ } rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssDocumentRule ({ConditionText})")]
-    sealed class CssDocumentRule : CssGroupingRule, ICssDocumentRule
+    public sealed class CssDocumentRule : CssGroupingRule, ICssDocumentRule
     {
         #region Fields
 

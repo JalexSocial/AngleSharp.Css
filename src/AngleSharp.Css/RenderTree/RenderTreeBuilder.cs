@@ -7,7 +7,7 @@ namespace AngleSharp.Css.RenderTree
     using System.Collections.Generic;
     using System.Linq;
 
-    sealed class RenderTreeBuilder
+    public sealed class RenderTreeBuilder
     {
         private readonly IBrowsingContext _context;
         private readonly IWindow _window;

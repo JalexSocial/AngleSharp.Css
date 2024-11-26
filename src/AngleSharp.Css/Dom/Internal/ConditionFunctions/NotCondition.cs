@@ -3,7 +3,7 @@
     using System;
     using System.IO;
 
-    sealed class NotCondition : IConditionFunction
+    public sealed class NotCondition : IConditionFunction
     {
         private readonly IConditionFunction _content;
 

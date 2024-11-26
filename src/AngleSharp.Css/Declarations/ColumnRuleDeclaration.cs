@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.ColumnRuleStyle,
         };
 
-        sealed class ColumnRuleValueConverter : IValueConverter
+        public sealed class ColumnRuleValueConverter : IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {
@@ -60,7 +60,7 @@ namespace AngleSharp.Css.Declarations
             }
         }
 
-        sealed class ColumnRuleAggregator : IValueAggregator, IValueConverter
+        public sealed class ColumnRuleAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = new ColumnRuleValueConverter();
 

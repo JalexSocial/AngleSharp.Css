@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a CSS repeat function call.
     /// </summary>
-    sealed class CssRepeatValue : ICssFunctionValue, IEquatable<CssRepeatValue>
+    public sealed class CssRepeatValue : ICssFunctionValue, IEquatable<CssRepeatValue>
     {
         #region Fields
 

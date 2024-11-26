@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a feature expression within a media query.
     /// </summary>
-    sealed class MediaFeature : IMediaFeature
+    public sealed class MediaFeature : IMediaFeature
     {
         #region Fields
 

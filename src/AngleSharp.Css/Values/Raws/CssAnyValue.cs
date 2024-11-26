@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents an unknown (any) value.
     /// </summary>
-    sealed class CssAnyValue : ICssRawValue
+    public sealed class CssAnyValue : ICssRawValue
     {
         #region Fields
 

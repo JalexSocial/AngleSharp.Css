@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// Represents the @counter-style rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssCounterStyleRule ({StyleName})")]
-    sealed class CssCounterStyleRule : CssDeclarationRule, ICssRule
+    public sealed class CssCounterStyleRule : CssDeclarationRule, ICssRule
     {
         #region ctor
 

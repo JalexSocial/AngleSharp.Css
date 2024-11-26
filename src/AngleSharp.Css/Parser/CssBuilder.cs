@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Parser
     /// <summary>
     /// See http://dev.w3.org/csswg/css-syntax/#parsing for details.
     /// </summary>
-    sealed class CssBuilder
+    public sealed class CssBuilder
     {
         #region Fields
 

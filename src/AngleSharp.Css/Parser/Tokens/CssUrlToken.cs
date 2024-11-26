@@ -5,7 +5,7 @@
     /// <summary>
     /// Represents a CSS URL token.
     /// </summary>
-    sealed class CssUrlToken : CssToken
+    public sealed class CssUrlToken : CssToken
     {
         #region Fields
 

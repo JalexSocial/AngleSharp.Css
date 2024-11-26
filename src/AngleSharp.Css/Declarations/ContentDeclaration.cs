@@ -20,7 +20,7 @@ namespace AngleSharp.Css.Declarations
 
         public static PropertyFlags Flags = PropertyFlags.None;
 
-        sealed class ContentValueConverter : IValueConverter
+        public sealed class ContentValueConverter : IValueConverter
         {
             private static readonly Dictionary<String, ContentMode> ContentModes = new(StringComparer.OrdinalIgnoreCase)
             {

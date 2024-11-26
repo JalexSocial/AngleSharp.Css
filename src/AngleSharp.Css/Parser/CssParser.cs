@@ -79,7 +79,7 @@ namespace AngleSharp.Css.Parser
         /// Creates a new parser with the context.
         /// </summary>
         /// <param name="context">The context to use.</param>
-        internal CssParser(IBrowsingContext context)
+        public CssParser(IBrowsingContext context)
             : this(default, context)
         {
         }
@@ -189,7 +189,7 @@ namespace AngleSharp.Css.Parser
 
         #region Internal Methods
 
-        internal ICssProperty ParseProperty(String propertyText)
+        public ICssProperty ParseProperty(String propertyText)
         {
             var style = new CssStyleDeclaration(_context);
             return Parse(propertyText, (b, t) =>
@@ -199,7 +199,7 @@ namespace AngleSharp.Css.Parser
             });
         }
 
-        internal ICssStyleSheet ParseStylesheet(TextSource source)
+        public ICssStyleSheet ParseStylesheet(TextSource source)
         {
             var sheet = new CssStyleSheet(_context, source);
             var tokenizer = CreateTokenizer(source);
@@ -210,7 +210,7 @@ namespace AngleSharp.Css.Parser
             return sheet;
         }
 
-        internal async Task<ICssStyleSheet> ParseStylesheetAsync(CssStyleSheet sheet, CancellationToken cancel)
+        public async Task<ICssStyleSheet> ParseStylesheetAsync(CssStyleSheet sheet, CancellationToken cancel)
         {
             var source = sheet.Source;
             await source.PrefetchAllAsync(cancel).ConfigureAwait(false);

@@ -5,7 +5,7 @@
     using System.IO;
     using System.Linq;
 
-    sealed class OrCondition : IConditionFunction
+    public sealed class OrCondition : IConditionFunction
     {
         private readonly IConditionFunction[] _conditions;
 

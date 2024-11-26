@@ -1,4 +1,4 @@
-﻿namespace AngleSharp.Css.Dom
+namespace AngleSharp.Css.Dom
 {
     using AngleSharp.Css.Parser;
     using AngleSharp.Dom;
@@ -8,7 +8,7 @@
     /// <summary>
     /// Represents a CSS rule.
     /// </summary>
-    abstract class CssRule : ICssRule
+    public abstract class CssRule : ICssRule
     {
         #region Fields
         

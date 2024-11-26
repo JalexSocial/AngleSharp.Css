@@ -4,7 +4,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System;
 
-    sealed class StructValueConverter<T> : IValueConverter
+    public sealed class StructValueConverter<T> : IValueConverter
         where T : struct, ICssValue
     {
         private readonly Func<StringSource, T?> _converter;

@@ -8,7 +8,7 @@
     /// <summary>
     /// Take a domain.
     /// </summary>
-    sealed class DomainFunction : DocumentFunction
+    public sealed class DomainFunction : DocumentFunction
     {
         #region Fields
 

@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a border radius value.
     /// </summary>
-    sealed class CssBorderRadiusValue : ICssCompositeValue, IEquatable<CssBorderRadiusValue>
+    public sealed class CssBorderRadiusValue : ICssCompositeValue, IEquatable<CssBorderRadiusValue>
     {
         #region Fields
 

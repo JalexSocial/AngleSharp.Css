@@ -1036,7 +1036,7 @@ namespace AngleSharp.Css
 
         public static IValueConverter AggregateTuple(IValueConverter converter) => new TupleAggregator(converter);
 
-        sealed class PeriodicAggregator : IValueAggregator, IValueConverter
+        public sealed class PeriodicAggregator : IValueAggregator, IValueConverter
         {
             private readonly IValueConverter _converter;
 
@@ -1077,7 +1077,7 @@ namespace AngleSharp.Css
             }
         }
 
-        sealed class TupleAggregator : IValueAggregator, IValueConverter
+        public sealed class TupleAggregator : IValueAggregator, IValueConverter
         {
             private readonly IValueConverter _converter;
 

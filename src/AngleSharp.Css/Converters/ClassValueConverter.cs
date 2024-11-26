@@ -4,7 +4,7 @@
     using AngleSharp.Text;
     using System;
 
-    sealed class ClassValueConverter<T> : IValueConverter
+    public sealed class ClassValueConverter<T> : IValueConverter
         where T : class, ICssValue
     {
         private readonly Func<StringSource, T> _converter;

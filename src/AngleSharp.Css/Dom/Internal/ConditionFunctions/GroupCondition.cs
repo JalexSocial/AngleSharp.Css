@@ -3,7 +3,7 @@
     using System;
     using System.IO;
 
-    sealed class GroupCondition : IConditionFunction
+    public sealed class GroupCondition : IConditionFunction
     {
         private readonly IConditionFunction _content;
 

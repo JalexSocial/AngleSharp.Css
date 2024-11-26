@@ -4,7 +4,7 @@ namespace AngleSharp.Css.Dom
     using System.Collections;
     using System.Collections.Generic;
 
-    sealed class StyleCollection : IStyleCollection
+    public sealed class StyleCollection : IStyleCollection
     {
         #region Fields
 

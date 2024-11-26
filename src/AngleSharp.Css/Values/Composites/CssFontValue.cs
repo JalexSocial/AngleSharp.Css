@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a CSS font definition.
     /// </summary>
-    sealed class CssFontValue : ICssCompositeValue, IEquatable<CssFontValue>
+    public sealed class CssFontValue : ICssCompositeValue, IEquatable<CssFontValue>
     {
         #region Fields
 

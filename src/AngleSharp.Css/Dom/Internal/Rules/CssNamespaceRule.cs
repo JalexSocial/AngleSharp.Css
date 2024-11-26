@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// Represents an @namespace rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssNamespaceRule ({Prefix})")]
-    sealed class CssNamespaceRule : CssRule, ICssNamespaceRule
+    public sealed class CssNamespaceRule : CssRule, ICssNamespaceRule
     {
         #region Fields
 

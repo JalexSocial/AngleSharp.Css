@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Css.Values;
     using AngleSharp.Text;
 
-    sealed class StandardValueConverter : IValueConverter
+    public sealed class StandardValueConverter : IValueConverter
     {
         private readonly ICssValue _defaultValue;
 

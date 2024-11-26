@@ -30,7 +30,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.AnimationName,
         };
 
-        sealed class AnimationAggregator : IValueAggregator, IValueConverter
+        public sealed class AnimationAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter ListConverter = WithAny(
                 TimeConverter.Option(InitialValues.AnimationDurationDecl),

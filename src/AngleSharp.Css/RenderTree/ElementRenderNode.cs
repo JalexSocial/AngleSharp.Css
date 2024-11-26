@@ -4,7 +4,7 @@ namespace AngleSharp.Css.RenderTree
     using AngleSharp.Dom;
     using System.Collections.Generic;
 
-    sealed class ElementRenderNode : IRenderNode
+    public sealed class ElementRenderNode : IRenderNode
     {
         public ElementRenderNode(IElement reference, IEnumerable<IRenderNode> children, ICssStyleDeclaration specifiedStyle, ICssStyleDeclaration computedStyle)
         {

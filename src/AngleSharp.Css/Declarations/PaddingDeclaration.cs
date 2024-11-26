@@ -25,7 +25,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.PaddingLeft,
         };
 
-        sealed class PaddingAggregator : IValueAggregator, IValueConverter
+        public sealed class PaddingAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(LengthOrPercentConverter, AssignInitial(CssLengthValue.Zero)).Periodic();
 

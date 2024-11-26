@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a comment in the CSS node tree.
     /// </summary>
-    sealed class CssComment : ICssComment
+    public sealed class CssComment : ICssComment
     {
         #region Fields
 

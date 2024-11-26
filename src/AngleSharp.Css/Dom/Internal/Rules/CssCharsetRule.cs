@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// Represents the CSS @charset rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssCharsetRule ({CharacterSet})")]
-    sealed class CssCharsetRule : CssRule, ICssCharsetRule
+    public sealed class CssCharsetRule : CssRule, ICssCharsetRule
     {
         #region Fields
 

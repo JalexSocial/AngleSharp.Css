@@ -7,7 +7,7 @@
     /// <summary>
     /// Take an url.
     /// </summary>
-    sealed class UrlFunction : DocumentFunction
+    public sealed class UrlFunction : DocumentFunction
     {
         #region Fields
 

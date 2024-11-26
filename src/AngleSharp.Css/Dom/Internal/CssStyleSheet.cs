@@ -11,7 +11,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a CSS Stylesheet.
     /// </summary>
-    sealed class CssStyleSheet : ICssStyleSheet
+    public sealed class CssStyleSheet : ICssStyleSheet
     {
         #region Fields
 

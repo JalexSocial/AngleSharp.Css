@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Dom
     using System.Collections.Generic;
     using System.IO;
 
-    sealed class DocumentFunctions : IDocumentFunctions
+    public sealed class DocumentFunctions : IDocumentFunctions
     {
         private readonly List<IDocumentFunction> _functions;
 

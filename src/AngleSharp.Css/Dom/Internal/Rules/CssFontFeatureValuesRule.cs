@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// Represents the @font-feature-values rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssFontFeatureValuesRule ({FamilyName})")]
-    sealed class CssFontFeatureValuesRule : CssDeclarationRule, ICssRule
+    public sealed class CssFontFeatureValuesRule : CssDeclarationRule, ICssRule
     {
         #region ctor
 

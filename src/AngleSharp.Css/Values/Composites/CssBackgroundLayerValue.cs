@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Values
     using System;
     using System.Collections.Generic;
 
-    sealed class CssBackgroundLayerValue : ICssCompositeValue, IEquatable<CssBackgroundLayerValue>
+    public sealed class CssBackgroundLayerValue : ICssCompositeValue, IEquatable<CssBackgroundLayerValue>
     {
         #region Fields
 

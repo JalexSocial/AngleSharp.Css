@@ -13,7 +13,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents a single CSS declaration block.
     /// </summary>
-    sealed class CssStyleDeclaration : ICssStyleDeclaration
+    public sealed class CssStyleDeclaration : ICssStyleDeclaration
     {
         #region Fields
 
@@ -315,10 +315,10 @@ namespace AngleSharp.Css.Dom
 
         #region Internal Methods
 
-        internal void SetDeclarations(IEnumerable<ICssProperty> decls) =>
+        public void SetDeclarations(IEnumerable<ICssProperty> decls) =>
             ChangeDeclarations(decls, m => false, (o, n) => !o.IsImportant || n.IsImportant);
 
-        internal void UpdateDeclarations(IEnumerable<ICssProperty> decls) =>
+        public void UpdateDeclarations(IEnumerable<ICssProperty> decls) =>
             ChangeDeclarations(decls, m => !m.CanBeInherited, (o, n) => o.IsInherited);
 
         #endregion

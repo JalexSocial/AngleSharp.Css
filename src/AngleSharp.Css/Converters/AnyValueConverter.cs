@@ -4,7 +4,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Css.Values;
     using AngleSharp.Text;
 
-    sealed class AnyValueConverter : IValueConverter
+    public sealed class AnyValueConverter : IValueConverter
     {
         public ICssValue Convert(StringSource source)
         {

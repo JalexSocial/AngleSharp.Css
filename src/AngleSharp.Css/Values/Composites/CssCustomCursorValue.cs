@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Values
     using System;
     using System.Collections.Generic;
 
-    sealed class CssCustomCursorValue : ICssCompositeValue, IEquatable<CssCustomCursorValue>
+    public sealed class CssCustomCursorValue : ICssCompositeValue, IEquatable<CssCustomCursorValue>
     {
         #region Fields
 

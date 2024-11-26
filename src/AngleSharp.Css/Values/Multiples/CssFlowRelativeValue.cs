@@ -138,7 +138,7 @@ namespace AngleSharp.Css.Values
     /// <summary>
     /// Represents a flow relative CSS value.
     /// </summary>
-    sealed class CssFlowRelativeValue : CssFlowRelativeValue<ICssValue>
+    public sealed class CssFlowRelativeValue : CssFlowRelativeValue<ICssValue>
     {
         #region ctor
 

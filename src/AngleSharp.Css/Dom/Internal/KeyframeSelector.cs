@@ -9,7 +9,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents the keyframe selector.
     /// </summary>
-    sealed class KeyframeSelector : IKeyframeSelector
+    public sealed class KeyframeSelector : IKeyframeSelector
     {
         #region Fields
 

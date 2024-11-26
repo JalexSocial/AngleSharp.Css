@@ -12,7 +12,7 @@ namespace AngleSharp.Css.Dom
     /// Represents a CSS style rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssStyleRule ({SelectorText})")]
-    sealed class CssStyleRule : CssRule, ICssStyleRule, ISelectorVisitor
+    public sealed class CssStyleRule : CssRule, ICssStyleRule, ISelectorVisitor
     {
         #region Fields
 
@@ -195,7 +195,7 @@ namespace AngleSharp.Css.Dom
         {
         }
 
-        sealed class InvalidSelector : ISelector
+        public sealed class InvalidSelector : ISelector
         {
             private readonly String _text;
 

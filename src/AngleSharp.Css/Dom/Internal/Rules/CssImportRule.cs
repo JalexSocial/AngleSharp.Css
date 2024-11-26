@@ -8,7 +8,7 @@ namespace AngleSharp.Css.Dom
     /// Represents a CSS import rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssImportRule ({Href})")]
-    sealed class CssImportRule : CssRule, ICssImportRule
+    public sealed class CssImportRule : CssRule, ICssImportRule
     {
         #region Fields
 

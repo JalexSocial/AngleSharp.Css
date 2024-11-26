@@ -10,7 +10,7 @@ namespace AngleSharp.Css.Dom
     /// Represents an @supports rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssSupportsRule ({ConditionText})")]
-    sealed class CssSupportsRule : CssConditionRule, ICssSupportsRule
+    public sealed class CssSupportsRule : CssConditionRule, ICssSupportsRule
     {
         #region Fields
         

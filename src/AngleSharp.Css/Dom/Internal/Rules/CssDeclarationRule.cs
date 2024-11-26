@@ -10,7 +10,7 @@ namespace AngleSharp.Css.Dom
     /// <summary>
     /// Represents the base class for all style-rule similar rules.
     /// </summary>
-    abstract class CssDeclarationRule : CssRule, ICssProperties
+    public abstract class CssDeclarationRule : CssRule, ICssProperties
     {
         #region Fields
 

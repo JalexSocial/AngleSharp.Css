@@ -6,7 +6,7 @@ namespace AngleSharp.Css.Converters
     using AngleSharp.Text;
     using System;
 
-    sealed class RadiusValueConverter : IValueConverter
+    public sealed class RadiusValueConverter : IValueConverter
     {
         private readonly IValueConverter _converter;
 

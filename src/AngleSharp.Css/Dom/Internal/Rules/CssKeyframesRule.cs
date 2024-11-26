@@ -10,7 +10,7 @@ namespace AngleSharp.Css.Dom
     /// Represents an @keyframes rule.
     /// </summary>
     [DebuggerDisplay(null, Name = "CssKeyframesRule ({Name})")]
-    sealed class CssKeyframesRule : CssGroupingRule, ICssKeyframesRule
+    public sealed class CssKeyframesRule : CssGroupingRule, ICssKeyframesRule
     {
         #region Fields
 

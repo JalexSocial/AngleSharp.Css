@@ -5,7 +5,7 @@
     /// <summary>
     /// Represents a CSS string token.
     /// </summary>
-    sealed class CssStringToken : CssToken
+    public sealed class CssStringToken : CssToken
     {
         #region Fields
 

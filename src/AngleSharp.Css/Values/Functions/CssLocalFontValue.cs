@@ -5,7 +5,7 @@ namespace AngleSharp.Css.Values
     using AngleSharp.Text;
     using System;
 
-    sealed class CssLocalFontValue : ICssFunctionValue, IEquatable<CssLocalFontValue>
+    public sealed class CssLocalFontValue : ICssFunctionValue, IEquatable<CssLocalFontValue>
     {
         #region Fields
 

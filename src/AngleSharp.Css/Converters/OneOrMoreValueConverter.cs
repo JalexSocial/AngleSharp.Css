@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Converters
     using System;
     using System.Collections.Generic;
 
-    sealed class OneOrMoreValueConverter : IValueConverter
+    public sealed class OneOrMoreValueConverter : IValueConverter
     {
         private readonly IValueConverter _converter;
         private readonly Int32 _minimum;

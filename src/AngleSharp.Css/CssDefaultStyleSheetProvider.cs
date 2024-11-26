@@ -4,7 +4,7 @@ namespace AngleSharp.Css
     using AngleSharp.Css.Parser;
     using System;
 
-    sealed class CssDefaultStyleSheetProvider : ICssDefaultStyleSheetProvider
+    public sealed class CssDefaultStyleSheetProvider : ICssDefaultStyleSheetProvider
     {
         #region Fields
 

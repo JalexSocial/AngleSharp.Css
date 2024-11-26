@@ -17,7 +17,7 @@ namespace AngleSharp.Css.Declarations
 
         public static PropertyFlags Flags = PropertyFlags.Inherited;
 
-        sealed class CursorValueConverter : IValueConverter
+        public sealed class CursorValueConverter : IValueConverter
         {
             public ICssValue Convert(StringSource source)
             {

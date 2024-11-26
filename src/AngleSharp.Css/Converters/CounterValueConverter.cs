@@ -7,7 +7,7 @@ namespace AngleSharp.Css.Converters
     using System;
     using System.Collections.Generic;
 
-    sealed class CounterValueConverter : IValueConverter
+    public sealed class CounterValueConverter : IValueConverter
     {
         private static readonly CssCounterValue[] NoneValue = Array.Empty<CssCounterValue>();
 

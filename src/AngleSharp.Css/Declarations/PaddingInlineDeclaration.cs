@@ -23,7 +23,7 @@ namespace AngleSharp.Css.Declarations
             PropertyNames.PaddingInlineEnd,
         };
 
-        sealed class PaddingInlineAggregator : IValueAggregator, IValueConverter
+        public sealed class PaddingInlineAggregator : IValueAggregator, IValueConverter
         {
             private static readonly IValueConverter converter = Or(AutoLengthOrPercentConverter, AssignInitial(CssLengthValue.Zero)).FlowRelative();
 

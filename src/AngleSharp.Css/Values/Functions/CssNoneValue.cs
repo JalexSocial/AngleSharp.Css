@@ -3,7 +3,7 @@ namespace AngleSharp.Css.Values
     using AngleSharp.Css.Dom;
     using System;
 
-    sealed class CssNoneValue : ICssImageValue
+    public sealed class CssNoneValue : ICssImageValue
     {
         #region Properties
 
