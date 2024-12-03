@@ -2,6 +2,7 @@
   <PropertyGroup>
     <AssemblyName>AngleSharp.Css</AssemblyName>
     <RootNamespace>AngleSharp.Css</RootNamespace>
+    <GenerateAssemblyInfo Condition="'$(Configuration)'=='Debug'">false</GenerateAssemblyInfo>
     <TargetFrameworks Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.0;net6.0;net7.0;net8.0</TargetFrameworks>
     <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">netstandard2.0;net461;net472;net6.0;net7.0;net8.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
